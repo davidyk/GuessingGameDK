@@ -1,0 +1,75 @@
+body {
+  background-image: url("../img/binary2.jpg");
+}
+.center {
+      text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+    }
+
+    img {
+        display: inline;
+        width: 200px;
+        height: 100px;
+    }
+
+    #footer {
+        width: 100%;
+        border-top: solid 2px black;
+        background: rgba(255,255,255,0.5);
+        position: fixed;
+        bottom: 0;
+
+    }
+
+ 
+
+#parent-input {
+  width: 260px
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  margin-bottom: 0;
+  height: 225px;
+}
+
+#submitbtn {
+  position: relative;
+  border-radius: 50px;
+  border: solid 4px;
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-align: center;
+  top: -75px;
+  left: +75px;
+  color: black;
+}
+
+input {
+  border-radius: 100px;
+  border: solid 4px red;
+  height: 200px;
+  width: 200px;
+  font-size: 100px;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+li {
+  margin: 1%;
+  width: 10%;
+  height: 10%;
+  display: inline-block;
+  border: 5px solid grey;
+  border-radius: 15%;
+  font-size: 60px;
+  padding: 0px 25px;
+
+}

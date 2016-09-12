@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+    <!-- Bootstrap and CSS here-->
+   
+
+  </head>
+  <body>
+
+      <div id='app' class="container">
+        <div id='headers' class="center">
+          <!-- Title and subtitles! -->
+          <H1>Guessing Game</H1>
+          <H2>Guess any number between 1 and 100</H2>
+        </div>
+
+        <div id='main' class="center">
+          <div id='parent-input'>
+            <!-- Player's guess input, and submit button -->
+            <input name="guessnumber" placeholder="#" maxlength="3" class="center"></input>
+            <button id="submitbtn" class="btn btn-lg btn-success center" type="submit" value="Submit">go</button>
+            
+          </div>
+
+          <div id='guesses' class="center">
+            <!-- unordered list of guesses -->
+            <ul class="guess">
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button class="btn btn-lg btn-default reset" type="reset">Reset</button>
+            <button class="btn btn-lg btn-default hint" type="button">Hint (You so weak...)</button>
+          </div>
+        </div>
+      </div>
+
+  
+
+
+    <div id='footer' class="center row">
+        <div>
+          <div class='col-md-4'>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-md-4'>
+            <h4>Project by David Kim</h4>
+          </div>
+
+          <div class='col-md-4'>
+            <img src='img/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="js/GuessingGame.js"></script>
+
+  </body>
+</html>
